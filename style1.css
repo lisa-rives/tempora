@@ -1,0 +1,146 @@
+body {
+    background-image: url("images/PageAccueil.jpg");
+    background-repeat: repeat;   
+    background-size: cover;         
+}
+
+img#article-image {
+    float: right;
+    margin-right: auto;
+    margin-left : auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    border: 3px solid #DB0073; 
+    padding: 3px; 
+    object-fit: cover;
+    object-position: center top;
+}
+
+img#article-image-personnes {
+    float: left;
+    margin-right: 10px;
+    margin-left : auto;
+    width: 260px;
+    height: 300px;
+    border-radius: 50px;
+    border: 3px solid #DB0073; 
+    padding: 3px;
+    object-fit: cover;
+    object-position: center top;
+}
+
+img#article-image-personne {
+    float: right;
+    margin-right: 10px;
+    margin-left : auto;
+    width: 260px;
+    height: 300px;
+    border-radius: 50px;
+    border: 3px solid #DB0073; 
+    padding: 3px;
+    object-fit: cover;
+    object-position: center top;
+}
+
+img#article-image-avancement {
+    float: center;
+    margin-right: 400px;
+    margin-left : 400px;
+    width: 600px;
+    height: 400px;
+    border-radius: 50px;
+    border: 3px solid #DB0073; 
+    padding: 3px; 
+}
+
+h1#page-title {
+    text-align: center;
+    font-size: 100px;
+    color: #DB0073;
+}
+
+
+img#article-image2 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 500px;
+    height: 400px;
+    border-radius: 50px;
+    border: 3px solid #DB0073; 
+    padding: 3px; 
+    display: block;
+}
+
+h2.intertitre {
+    text-align: left;
+    font-size: 25px;
+}
+
+.link-accueil {
+    color: #DB0073;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+width: 100%;
+height: 100vh;
+line-height: 80vh;
+text-align: center;
+display: block;
+font-size: 60px;
+}
+
+.align-center {
+    margin: auto;
+}
+
+.view {
+width: 100%;
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.block {
+width: 100%;
+margin: 50px;
+padding: 15px 10px 30px 10px;
+border-radius: 50px;
+border: 0.5mm solid #DB0073;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.block:nth-child(odd) {
+background: #FF8FC3;
+color : #FFFACD;
+}
+.block:nth-child(even) {
+background: #FFD6F0;
+color : #DB0073;
+}
+
+@keyframes appear {
+from {
+    opacity: 0;
+    clip-path: inset(100% 100% 0 0);
+}
+to {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+}
+}
+
+.block {
+animation: appear linear;
+animation-timeline: view();
+animation-range: entry 0% cover 40%;
+}
+

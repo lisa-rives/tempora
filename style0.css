@@ -1,0 +1,85 @@
+body {
+    
+    background-image: url("images/PageAccueil.jpg");
+    background-repeat: no-repeat;   
+    background-size: cover;         
+    background-position: center;
+}
+
+h1#page-title {
+    text-align: center;
+    font-size: 65px;
+    color: #DB0073;
+    margin-bottom: 60px;
+}
+
+
+img#image1 {
+    height: 40%;
+    width: 40%;
+    border: 3px solid black; 
+}
+
+img.first-page-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 500px;
+    border: 3px solid #DB0073; 
+    padding: 3px; 
+    transition: all 0.5s ease;
+}
+
+img.first-page-img:hover {
+    transform: scale(1.8);
+}
+
+figure.pemiere-image {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+
+p#bienvenu {
+    margin-bottom: 35px;
+    text-align: center;
+    font-style: italic;
+    font-size:  35px;
+    color: #CC0067;
+}
+
+h2.titre-page {
+    text-align: center;
+    font-size: 28px;
+    text-decoration: underline;
+    color : #DB0073;
+}
+
+div#image-conteneur {
+    margin: 50px 0px; 
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+figure.figure-image {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+p.image-title {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #DB0073;
+    font-size : 130%;
+}
+
+hr {
+    height: 1px;
+    background-color: #E96399;
+    border: none;
+}
