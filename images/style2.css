@@ -1,0 +1,37 @@
+#grand-titre{
+	color: #FFFACD;
+	text-align: center;
+	text-decoration: underline;
+	font-weight : bold;
+	font-size: 45px
+}
+
+body {
+	background-image: url("https://accentstudio.fr/images/Fond2.jpg");
+    background-size: cover;
+}
+
+#image1 {
+	float: left;
+	margin-right: 10px;
+	margin-left: auto;
+	width: 200px;
+	height: 200px;
+	border-radius: 50px ;
+	border: 3px solid #FFFACD;
+	padding: 3px;
+}
+
+.titre{
+	font-weight : bold;
+	color : #FFFACD;
+}
+
+.link-accueil {
+    color: #FFFACD;
+	font-size : 25px;
+}
+
+.align-center {
+    margin: auto;
+}
