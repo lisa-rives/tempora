@@ -176,8 +176,13 @@
 			<div class="block">
 				<h2 class="intertitre">Les problèmes rencontrés, et les solutions envisagées</h2>
 				<ul>
-					<li>probleme... <strong>-> résolution :</strong> blabla</li>
+					<li><strong>Problème 1:</strong> la priorité est définie comme un enum Priority et non comme un entier,
+						donc Rust ne peut pas comparer directement deux priorités pour effectuer le tri.
+						<strong>-> solution trouvée :</strong> convertir la valeur de Priority en valeur numérique à l’aide
+						d’une fonction (priority_value) afin de pouvoir comparer les priorités lors du tri des tâches.</li>
 					<br/>
+					<li><strong>Problème 2:</strong> la bibliotèque chrono n'était pas ajouté au projet directement donc tout le monde n'y avait pas accès.
+						<strong>-> solution trouvée :</strong> ajouter chrono dans les dépendances.</li>
 				</ul>
 			</div>
 			<br/>
@@ -195,3 +200,4 @@
 	</body>
 
 </html>
+
