@@ -195,6 +195,15 @@
 					<br/>
 					<li><strong>Problème 6 :</strong> vérification du bon fonctionnement de certaines fonctions.
 						<strong>-> solution trouvée :</strong> création de tests avec cargo test.</li>
+					<br/>
+					<li><strong>Problème 7 :</strong> gestion des collisions temporelles entre plusieurs événements (chevauchement partiel, inclusion complète ou horaires identiques).
+						<strong>-> solution trouvée :</strong> développement d’une fonction de détection de conflits dans la structure Event comparant les dates de début et de fin afin d’identifier automatiquement les chevauchements. </li>
+					<br/>
+					<li><strong>Problème 8 :</strong> manque de lisibilité des retours affichés dans le terminal.
+						<strong>-> solution trouvée :</strong> ajout de messages d’erreur en rouge et de messages de succès en vert pour rendre les retours plus clairs et compréhensibles. </li>
+					<br/>
+					<li><strong>Problème 9 :</strong> risques de bugs ou de cas non gérés dans l’algorithme de détection.
+						<strong>-> solution trouvée :</strong> réalisation de plusieurs tests sur différents scénarios afin de vérifier le bon fonctionnement du système et corriger les erreurs détectées.</li>
 				</ul>
 			</div>
 			<br/>
